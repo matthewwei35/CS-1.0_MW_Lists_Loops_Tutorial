@@ -11,3 +11,10 @@ songs.append("Pretty Boy")
 songs.extend(["Ew", "High Hopes"])
 songs.remove("Ew")
 print(songs)
+
+# Option 1
+for song in songs:
+    print(song)
+# Option 2
+for i in range(len(songs)):
+    print(songs[i])

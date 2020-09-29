@@ -18,3 +18,10 @@ for song in songs:
 # Option 2
 for i in range(len(songs)):
     print(songs[i])
+
+animals = ["Lizard", "Bird", "Ant"]
+animals.append("Dog")
+print(animals[2])
+del animals[0]
+for animal in animals:
+    print(animal)
